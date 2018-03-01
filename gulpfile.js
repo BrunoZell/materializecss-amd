@@ -1,6 +1,8 @@
 var gulp = require("gulp"),
-    extend = require("extend"),
+    rename = require("gulp-rename"),
+    uglify = require("gulp-uglifyes"),
     optimize = require("gulp-requirejs-optimize"),
+    extend = require("extend"),
     config = require("./config.js");
 
 gulp.task("build", function() {
@@ -9,5 +11,8 @@ gulp.task("build", function() {
             out: "materialize.amd.js",
             optimize: "none"
         })))
+        .pipe(gulp.dest("./dist"))
+        .pipe(uglify())
+        .pipe(rename("materialize.amd.min.js"))
         .pipe(gulp.dest("./dist"));
 });
