@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/TheInsaneBro/materializecss-amd/issues"
   },
+  "scripts": {
+    "start": "gulp build"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
     "extend": "3.0.1",
