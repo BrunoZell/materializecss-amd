@@ -1,0 +1,20 @@
+{
+  "name": "materializecss-amd",
+  "version": "1.1.0",
+  "description": "Build materialize-css for requirejs",
+  "author": "Bruno Zell",
+  "homepage": "https://github.com/TheInsaneBro/materializecss-amd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheInsaneBro/materializecss-amd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheInsaneBro/materializecss-amd/issues"
+  },
+  "dependencies": {
+    "gulp": "3.9.1",
+    "materialize-css": "0.100.1",
+    "jquery": "3.3.1"
+  }
+}
