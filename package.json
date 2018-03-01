@@ -12,8 +12,12 @@
   "bugs": {
     "url": "https://github.com/TheInsaneBro/materializecss-amd/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "gulp": "3.9.1",
+    "extend": "3.0.1",
+    "gulp-requirejs-optimize": "1.2.0"
+  },
+  "dependencies": {
     "materialize-css": "0.100.1",
     "jquery": "3.3.1"
   }
