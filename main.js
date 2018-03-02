@@ -1,37 +1,35 @@
 define([
     "global",
     "waves",
-    "animation",
+    "anime",
+    "autocomplete",
     "buttons",
     "cards",
     "carousel",
-    "character_counter",
+    "cash",
+    "characterCounter",
     "chips",
     "collapsible",
+    "component",
+    "datepicker",
     "dropdown",
     "forms",
-    "hammerjs",
-    "initial",
-    "jquery.easing",
-    "jquery.hammer",
     "materialbox",
     "modal",
     "parallax",
-    "picker",
-    "picker.date",
     "pushpin",
-    "scrollFire",
+    "range",
     "scrollspy",
-    "sideNav",
+    "select",
+    "sidenav",
     "slider",
     "tabs",
     "tapTarget",
+    "timepicker",
     "toasts",
-    "tooltip",
-    "transitions",
-    "velocity"
-], function (Materialize, Waves) {
-    Materialize.Waves = Waves;
-    Materialize.Waves.displayEffect();
-    return Materialize;
+    "tooltip"
+], function (M, Waves) {
+    M.Waves = Waves;
+    M.Waves.displayEffect();
+    return M;
 });
