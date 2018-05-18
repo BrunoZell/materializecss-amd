@@ -1,3 +1,5 @@
+# Deprecation Warning: `materialize-css 1.0.0-alpha.x` have natively AMD compatible
+
 # materialize-css AMD-module
 
 - Builds AMD module for [materialize-css](https://github.com/Dogfalo/materialize)
