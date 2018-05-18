@@ -1,4 +1,4 @@
-# Deprecation Warning: `materialize-css 1.0.0-alpha.x` have natively AMD compatible
+#### Deprecation Warning: `materialize-css 1.0.0-alpha.x` is natively AMD compatible
 
 # materialize-css AMD-module
 
